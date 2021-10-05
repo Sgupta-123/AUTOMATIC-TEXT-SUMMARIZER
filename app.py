@@ -1,6 +1,6 @@
 import traceback
 from time import strftime
-
+import pandas as pd
 from flask import Flask, request, jsonify, make_response, render_template
 
 from config.cfg_handler import CfgHandler
